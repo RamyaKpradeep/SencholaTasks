@@ -86,3 +86,16 @@ body{
     padding: 12px 25px;
     background-color: orangered;
 }
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    body{
+        width:100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+   body {
+      width: 100%;
+    }
+}
